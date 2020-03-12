@@ -19,7 +19,7 @@
             <div class="destination-details-content">
               <nuxt-link :to="localePath('index')">{{ $t('comeBack') }}</nuxt-link>
               <div class="ddc-title">
-                <h4>تایتل</h4>
+                <h4>{{post.title}}</h4>
               </div>
               <div class="ddc-meta">
                 <p>
@@ -73,8 +73,6 @@ export default {
   background-image: url('/img/common/car_pattern.svg');
   background-color: #faf2c7;
 }
-.destination-details-content{
-  
-}
+
 
 </style>
